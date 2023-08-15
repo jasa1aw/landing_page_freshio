@@ -1,0 +1,67 @@
+.nav, .nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    background-color: #0a472e;
+    padding: 20px;
+    color: #fff;
+}
+
+.nav i{
+    color: #fff;
+    transition: .4s;
+}
+
+@font-face{
+    font-family: "Roboto-bold";
+    src: url("../../Fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+    font-family: "Roboto-light";
+    src: url("../../Fonts/Roboto-Light.ttf");
+}
+
+.nav p{
+    font-family: "Roboto-light";
+}
+.nav a{
+    font-size: 14px;
+    font-family: "Roboto-bold";
+    color: #fff;
+    margin-right: 20px;
+    transition: .4s;
+}
+
+.nav-left{
+    margin-right: 50px;
+}
+
+.nav-left i{
+    margin-right: 20px;
+}
+
+.nav-right{
+    border-left: 1px solid #e1e1e1;
+    padding-left: 50px;
+}
+
+.nav-right a:hover{
+    color: #bac34e;
+}
+.nav-right a:hover i{
+    color: #bac34e;
+}
+
+@media(max-width:1000px){
+    .nav-right{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .nav-left p{
+        font-size: 15px;
+    }
+}
