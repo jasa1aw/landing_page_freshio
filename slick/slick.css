@@ -2,6 +2,7 @@
 .slick-slider
 {
     position: relative;
+
     display: block;
     box-sizing: border-box;
 
@@ -25,7 +26,7 @@
     overflow: hidden;
 
     margin: 0;
-    padding: 40px 30px;
+    padding: 0;
 }
 .slick-list:focus
 {
@@ -41,9 +42,9 @@
 .slick-slider .slick-list
 {
     -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
 }
 
@@ -52,8 +53,8 @@
     position: relative;
     top: 0;
     left: 0;
-
-    display: block;
+    display: flex;
+    gap: 20px;
     margin-left: auto;
     margin-right: auto;
 }
